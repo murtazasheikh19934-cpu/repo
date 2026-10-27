@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase | Online Shopping</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold fs-3 text-warning" href="#">
+            ShopEase
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+            aria-controls="navbarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#categories">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#offers">Offers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <form class="d-flex me-lg-3 my-3 my-lg-0" role="search">
+                <input class="form-control me-2" type="search"
+                    placeholder="Search products..." aria-label="Search">
+                <button class="btn btn-warning" type="submit">Search</button>
+            </form>
+
+            <a href="#products" class="btn btn-outline-light mt-2 mt-lg-0">
+                🛒 Cart
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Banner -->
+<section class="bg-primary text-white py-5">
+    <div class="container">
+        <div class="row align-items-center g-4 py-4">
+            <div class="col-md-6">
+                <span class="badge bg-warning text-dark mb-3 fs-6">
+                    BIGGEST SALE OF THE SEASON
+                </span>
+
+                <h1 class="display-4 fw-bold">
+                    Discover Your Perfect Style
+                </h1>
+
+                <p class="lead">
+                    Shop the latest fashion, electronics and accessories
+                    at amazing prices.
+                </p>
+
+                <h3 class="text-warning fw-bold mb-4">
+                    Up to 50% OFF
+                </h3>
+
+                <a href="#products" class="btn btn-warning btn-lg me-2">
+                    Shop Now
+                </a>
+
+                <a href="#categories" class="btn btn-outline-light btn-lg">
+                    Explore Categories
+                </a>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img
+                    src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80"
+                    class="img-fluid rounded-4 shadow"
+                    alt="Shopping fashion collection">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits -->
+<section class="container py-4">
+    <div class="row g-3 text-center">
+
+        <div class="col-6 col-md-3">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <h2>🚚</h2>
+                    <h6 class="fw-bold">Free Delivery</h6>
+                    <p class="text-muted small mb-0">On selected orders</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <h2>🔒</h2>
+                    <h6 class="fw-bold">Secure Payment</h6>
+                    <p class="text-muted small mb-0">Shop with confidence</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <h2>↩️</h2>
+                    <h6 class="fw-bold">Easy Returns</h6>
+                    <p class="text-muted small mb-0">Simple return process</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                    <h2>🎧</h2>
+                    <h6 class="fw-bold">24/7 Support</h6>
+                    <p class="text-muted small mb-0">We're here to help</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="container py-5" id="categories">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <p class="text-primary fw-bold mb-1">EXPLORE OUR STORE</p>
+            <h2 class="fw-bold">Shop By Category</h2>
+        </div>
+        <a href="#products" class="btn btn-outline-primary">View All</a>
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <a href="#products" class="text-decoration-none text-dark">
+                <div class="card border-0 shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Fashion" height="180">
+                    <div class="card-body text-center">
+                        <h5 class="fw-bold">Fashion</h5>
+                        <p class="text-muted mb-0">Trendy clothing</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <a href="#products" class="text-decoration-none text-dark">
+                <div class="card border-0 shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Headphones" height="180">
+                    <div class="card-body text-center">
+                        <h5 class="fw-bold">Electronics</h5>
+                        <p class="text-muted mb-0">Latest gadgets</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <a href="#products" class="text-decoration-none text-dark">
+                <div class="card border-0 shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Red sneakers" height="180">
+                    <div class="card-body text-center">
+                        <h5 class="fw-bold">Shoes</h5>
+                        <p class="text-muted mb-0">Everyday comfort</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3">
+            <a href="#products" class="text-decoration-none text-dark">
+                <div class="card border-0 shadow-sm h-100">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Wristwatch" height="180">
+                    <div class="card-body text-center">
+                        <h5 class="fw-bold">Watches</h5>
+                        <p class="text-muted mb-0">Classic accessories</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Special Offer -->
+<section class="container py-3" id="offers">
+    <div class="bg-warning rounded-4 p-4 p-md-5">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <span class="badge bg-dark mb-2">LIMITED TIME OFFER</span>
+                <h2 class="fw-bold">Upgrade Your Everyday Style!</h2>
+                <p class="mb-md-0">
+                    Find your favourite products at special prices.
+                    Don't miss out on our latest deals.
+                </p>
+            </div>
+
+            <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                <a href="#products" class="btn btn-dark btn-lg">
+                    Explore Deals →
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Products -->
+<section class="container py-5" id="products">
+    <div class="text-center mb-5">
+        <p class="text-primary fw-bold mb-1">HANDPICKED FOR YOU</p>
+        <h2 class="fw-bold">Featured Products</h2>
+        <p class="text-muted">Discover our popular picks at great prices.</p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Product 1 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="position-relative">
+                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">
+                        20% OFF
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Casual T-shirt">
+                </div>
+                <div class="card-body">
+                    <p class="text-muted small mb-1">Fashion</p>
+                    <h5 class="card-title">Classic T-Shirt</h5>
+                    <p class="mb-2">
+                        <span class="fw-bold text-primary">Rs. 1,200</span>
+                        <del class="text-muted small">Rs. 1,500</del>
+                    </p>
+                    <p class="text-warning mb-3">★★★★★ <small class="text-muted">(45)</small></p>
+                    <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="position-relative">
+                    <span class="badge bg-success position-absolute top-0 start-0 m-2">
+                        NEW
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Wireless headphones">
+                </div>
+                <div class="card-body">
+                    <p class="text-muted small mb-1">Electronics</p>
+                    <h5 class="card-title">Wireless Headphones</h5>
+                    <p class="mb-2">
+                        <span class="fw-bold text-primary">Rs. 3,500</span>
+                        <del class="text-muted small">Rs. 4,000</del>
+                    </p>
+                    <p class="text-warning mb-3">★★★★★ <small class="text-muted">(32)</small></p>
+                    <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="position-relative">
+                    <span class="badge bg-danger position-absolute top-0 start-0 m-2">
+                        SALE
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Sports sneakers">
+                </div>
+                <div class="card-body">
+                    <p class="text-muted small mb-1">Footwear</p>
+                    <h5 class="card-title">Sports Sneakers</h5>
+                    <p class="mb-2">
+                        <span class="fw-bold text-primary">Rs. 4,200</span>
+                        <del class="text-muted small">Rs. 5,000</del>
+                    </p>
+                    <p class="text-warning mb-3">★★★★☆ <small class="text-muted">(28)</small></p>
+                    <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="position-relative">
+                    <span class="badge bg-info text-dark position-absolute top-0 start-0 m-2">
+                        POPULAR
+                    </span>
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80"
+                        class="card-img-top" alt="Luxury wristwatch">
+                </div>
+                <div class="card-body">
+                    <p class="text-muted small mb-1">Accessories</p>
+                    <h5 class="card-title">Classic Wristwatch</h5>
+                    <p class="mb-2">
+                        <span class="fw-bold text-primary">Rs. 2,800</span>
+                        <del class="text-muted small">Rs. 3,500</del>
+                    </p>
+                    <p class="text-warning mb-3">★★★★★ <small class="text-muted">(51)</small></p>
+                    <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=500&q=80"
+                    class="card-img-top" alt="Stylish handbag">
+                <div class="card-body">
+                    <p class="text-muted small mb-1">Accessories</p>
+                    <h5 class="card-title">Stylish Handbag</h5>
+                    <p class="mb-2">
+                        <span class="fw-bold text-primary">Rs. 2,500</span>
+                    </p>
+                    <p class="text-warning mb-3">★★★★☆ <small class="text-muted">(19)</small></p>
+                    <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=500&q=80"
+                    class="card-img-top" alt="Instant camera">
+                <div class="card-body">
+                    <p class="text-muted small mb-1">Electronics</p>
+                    <h5 class="card-title">Instant Camera</h5>
+                    <p class="mb-2">
+                        <span class="fw-bold text-primary">Rs. 8,500</span>
+                    </p>
+                    <p class="text-warning mb-3">★★★★★ <small class="text-muted">(24)</small></p>
+                    <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=500&q=80"
+                    class="card-img-top" alt="Perfume bottle">
+                <div class="card-body">
+                    <p class="text-muted small mb-1">Beauty</p>
+                    <h5 class="card-title">Premium Perfume</h5>
+                    <p class="mb-2">
+                        <span class="fw-bold text-primary">Rs. 1,800</span>
+                    </p>
+                    <p class="text-warning mb-3">★★★★☆ <small class="text-muted">(36)</small></p>
+                    <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="col-6 col-md-4 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=500&q=80"
+                    class="card-img-top" alt="Modern home chair">
+                <div class="card-body">
+                    <p class="text-muted small mb-1">Home & Living</p>
+                    <h5 class="card-title">Modern Home Decor</h5>
+                    <p class="mb-2">
+                        <span class="fw-bold text-primary">Rs. 3,200</span>
+                    </p>
+                    <p class="text-warning mb-3">★★★★★ <small class="text-muted">(17)</small></p>
+                    <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+        <a href="#products" class="btn btn-outline-primary btn-lg">
+            View More Products
+        </a>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="bg-primary text-white py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold">Join Our Shopping Community</h2>
+        <p class="mb-4">
+            Subscribe to hear about new arrivals and special offers.
+        </p>
+
+        <form class="row justify-content-center g-2">
+            <div class="col-12 col-md-5">
+                <input type="email" class="form-control form-control-lg"
+                    placeholder="Enter your email address" required>
+            </div>
+            <div class="col-12 col-md-auto">
+                <button type="submit" class="btn btn-warning btn-lg w-100">
+                    Subscribe
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-3" id="contact">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <h3 class="text-warning fw-bold">ShopEase</h3>
+                <p class="text-white-50">
+                    Your one-stop online shopping destination.
+                    Discover quality products at prices you'll love.
+                </p>
+            </div>
+
+            <div class="col-6 col-md-2">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-white-50 text-decoration-none">Home</a></li>
+                    <li class="mb-2"><a href="#categories" class="text-white-50 text-decoration-none">Categories</a></li>
+                    <li class="mb-2"><a href="#products" class="text-white-50 text-decoration-none">Products</a></li>
+                    <li class="mb-2"><a href="#offers" class="text-white-50 text-decoration-none">Offers</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <h5>Customer Service</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">Help Center</li>
+                    <li class="mb-2">Shipping Information</li>
+                    <li class="mb-2">Returns & Refunds</li>
+                    <li class="mb-2">Privacy Policy</li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Contact Us</h5>
+                <p class="text-white-50 mb-2">📧 support@shopease.com</p>
+                <p class="text-white-50 mb-2">📞 +92 300 1234567</p>
+                <p class="text-white-50">📍 Karachi, Pakistan</p>
+            </div>
+
+        </div>
+
+        <hr class="border-secondary mt-4">
+
+        <div class="text-center text-white-50">
+            <p class="mb-0">
+                © 2026 ShopEase. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
